@@ -1,0 +1,195 @@
+/*--------------------------------------------------------------------
+Base
+--------------------------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*--------------------------------------------------------------------
+Éléments
+--------------------------------------------------------------------*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+}
+
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------------
+Components
+--------------------------------------------------------------------*/
+
+/*-----------------Header-----------------*/
+
+header{
+    background-color: #f26c25;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header p{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding: 0;
+}
+
+header nav a{
+    color: white;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+/*-----------------Bannière-----------------*/
+
+.banniere{
+    background-color: #eeeeee;
+}
+
+.banniere .wrapper{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 7.2px;
+}
+
+/*-----------------Section Transport-----------------*/
+
+.titre-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #eeeeee;
+    border: solid 1px #d0d0d0;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.conteneur-transport{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+article h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+article p{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/*-----------------Footer-----------------*/
+
+footer{
+    background-color: black;
+}
+
+footer a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+footer ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+h4{
+    color: white;
+    font-size: 18px;
+}
+
+.facebook a{
+    background-image: url("../images/facebook-nb.jpg");
+}
+
+.twitter a{
+    background-image: url("../images/twitter-nb.jpg");
+}
+
+.linkedin a{
+    background-image: url("../images/linkedin-nb.jpg");
+}
+
+.pinterest a{
+    background-image: url("../images/pinterest-nb.jpg");
+}
+
+.facebook a:hover{
+    background-image: url("../images/facebook-survol.jpg");
+}
+
+.twitter a:hover{
+    background-image: url("../images/twitter-survol.jpg");
+}
+
+.linkedin a:hover{
+    background-image: url("../images/linkedin-survol.jpg");
+}
+
+.pinterest a:hover{
+    background-image: url("../images/pinterest-survol.jpg");
+}
