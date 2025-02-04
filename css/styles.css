@@ -122,6 +122,8 @@ h2{
     gap: 60px;
 }
 
+
+
 article h3{
     font-size: 36px;
     font-weight: 300;
@@ -192,4 +194,12 @@ h4{
 
 .pinterest a:hover{
     background-image: url("../images/pinterest-survol.jpg");
+}
+
+/*--------------------------------------------------------------------
+Aide stylistique
+--------------------------------------------------------------------*/
+
+.conteneur-transport-invisible{
+    display: none;
 }
